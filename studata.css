@@ -1,0 +1,25 @@
+body{
+    background-color: violet;
+}
+.items{
+    position: fixed;
+    margin-left: 10cm;
+    padding-left: 2cm;
+    margin-top: 1cm;
+    padding-top: 2cm;
+    margin-right:13.6cm;
+    padding-right: 2cm;
+    justify-content: center;
+    align-items: center;
+    height: 12cm;
+    background-color: aliceblue;
+     }
+.items div{
+    background-color: orange;
+    
+}
+
+#show li{
+    display: grid;
+    grid-template-rows: 2cm;
+}
