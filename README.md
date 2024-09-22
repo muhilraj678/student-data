@@ -1,1 +1,78 @@
-# student-data
+# student-datajbb
+[Uploading st<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>student data</title>
+    <link rel="stylesheet" href="studata.css">
+    <script src="studata.js"></script>
+</head>
+<body>
+    <div class="items">
+        
+        <div><h1>enter your data</h1></div>
+        <div><input id="name" placeholder="enter your name"></div><br>
+        <div><input id="age" placeholder="enter your age"></div><br>
+        <div><select id="gender" sex="gender" ><option value="male">male</option>
+            <option value="female">female</option></select></div><br>
+        <div><select id="course" course1="course"><option value="video editing">video editing</option>
+            <option value="web development">web development</option>
+            <option value="content writing">content writing</option></select></div>
+            <div><button onclick="save()" style="margin: .7cm;">save</button></div>
+            
+        </div>
+    
+
+    <ul id="show">
+    
+    </ul>
+
+
+<script>
+     var add1=document.getElementById("show")
+    var nam=document.getElementById("name")
+    var ag=document.getElementById("age")
+    var se=document.getElementById("gender")
+    var co=document.getElementById("course")
+    
+function save(){
+    
+    var list=document.createElement("li")
+    list.innerHTML="your name:" +nam.value+"<br>"+" your age:" +ag.value+"<br>"+" your sex: " +se.value+"<br>"+" your course:" +co.value
+    add1.append(list)
+    
+    }
+
+
+</script>
+
+
+           
+        
+</body>
+</html>
+body{
+    background-color: violet;
+}
+.items{
+    position: fixed;
+    margin-left: 10cm;
+    padding-left: 2cm;
+    margin-top: 1cm;
+    padding-top: 2cm;
+    margin-right:13.6cm;
+    padding-right: 2cm;
+    justify-content: center;
+    align-items: center;
+    height: 12cm;
+    background-color: aliceblue;
+     }
+.items div{
+    background-color: orange;
+    
+}
+
+#show li{
+    display: grid;
+    grid-template-rows: 2cm;
+}
+udata.html…]()
